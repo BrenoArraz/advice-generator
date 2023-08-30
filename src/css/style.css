@@ -1,0 +1,67 @@
+html{
+  background-color: hsl(218, 23%, 16%);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.divisa{
+  position: absolute;
+  bottom: 60px;
+}
+
+.divisa img{
+  width: 250px;
+}
+
+.js{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advice-number{
+  color: hsl(150, 100%, 66%);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.advice{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+}
+
+.btn{
+  background-color: hsl(150, 100%, 66%);
+  border-color: hsl(150, 100%, 66%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -28px;
+  animation-delay: 2s;
+}
+
+.btn:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px  hsl(150, 100%, 66%);
+}
